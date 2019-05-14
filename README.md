@@ -77,7 +77,16 @@ Kitsu-iOS is an iOS client for the popular anime website [Kitsu](https://kitsu.i
 ### [BONUS] Interactive Prototype
 
 ## Schema
-[This section will be completed in Unit 9]
+### View Controllers
+[This section will be completed in Unit 11]
+- [x] Added tab view controllers
+- [x] Added collection view controller for animes
+
+[This section will be completed in Unit 12]
+- [ ] Network request
+- [ ] Log in, sign up functions
+- [ ] User can scroll animes on the list
+
 ### Models
 [Add table of models]
 ### Networking
