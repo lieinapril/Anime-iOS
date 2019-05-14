@@ -82,7 +82,7 @@ Kitsu-iOS is an iOS client for the popular anime website [Kitsu](https://kitsu.i
 - [x] Added tab view controllers
 - [x] Added collection view controller for animes
 
-<img src=http://http://g.recordit.co/8vEt7yXqBM.gif width=250><br>
+<img src=http://g.recordit.co/8vEt7yXqBM.gif width=250><br>
 
 [This section will be completed in Unit 12]
 - [ ] Network request
