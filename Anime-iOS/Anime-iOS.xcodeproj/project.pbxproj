@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6CAAB82228A88F200D22E32 /* AnimeGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAAB81228A88F200D22E32 /* AnimeGridCell.swift */; };
 		E6EFF2C72285330B008ABAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFF2C62285330B008ABAAD /* AppDelegate.swift */; };
 		E6EFF2C92285330B008ABAAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFF2C82285330B008ABAAD /* ViewController.swift */; };
 		E6EFF2CC2285330B008ABAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EFF2CA2285330B008ABAAD /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6CAAB81228A88F200D22E32 /* AnimeGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeGridCell.swift; sourceTree = "<group>"; };
 		E6EFF2C32285330B008ABAAD /* Anime-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EFF2C62285330B008ABAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6EFF2C82285330B008ABAAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E6EFF2C62285330B008ABAAD /* AppDelegate.swift */,
 				E6EFF2C82285330B008ABAAD /* ViewController.swift */,
 				E6EFF2CA2285330B008ABAAD /* Main.storyboard */,
+				E6CAAB81228A88F200D22E32 /* AnimeGridCell.swift */,
 				E6EFF2CD2285330D008ABAAD /* Assets.xcassets */,
 				E6EFF2CF2285330D008ABAAD /* LaunchScreen.storyboard */,
 				E6EFF2D22285330D008ABAAD /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				E6EFF2C92285330B008ABAAD /* ViewController.swift in Sources */,
 				E6EFF2C72285330B008ABAAD /* AppDelegate.swift in Sources */,
+				E6CAAB82228A88F200D22E32 /* AnimeGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
