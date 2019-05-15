@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16714B22228BD3BB00B60121 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16714B21228BD3BB00B60121 /* Anime.swift */; };
 		E6EFF2C72285330B008ABAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFF2C62285330B008ABAAD /* AppDelegate.swift */; };
 		E6EFF2C92285330B008ABAAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFF2C82285330B008ABAAD /* ViewController.swift */; };
 		E6EFF2CC2285330B008ABAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EFF2CA2285330B008ABAAD /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16714B21228BD3BB00B60121 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 		E6EFF2C32285330B008ABAAD /* Anime-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EFF2C62285330B008ABAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6EFF2C82285330B008ABAAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16714B20228BD38800B60121 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16714B21228BD3BB00B60121 /* Anime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E6EFF2BA2285330A008ABAAD = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		E6EFF2C52285330B008ABAAD /* Anime-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				16714B20228BD38800B60121 /* Models */,
 				E6EFF2C62285330B008ABAAD /* AppDelegate.swift */,
 				E6EFF2C82285330B008ABAAD /* ViewController.swift */,
 				E6EFF2CA2285330B008ABAAD /* Main.storyboard */,
@@ -258,6 +269,7 @@
 			files = (
 				E6EFF2C92285330B008ABAAD /* ViewController.swift in Sources */,
 				E6EFF2C72285330B008ABAAD /* AppDelegate.swift in Sources */,
+				16714B22228BD3BB00B60121 /* Anime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
