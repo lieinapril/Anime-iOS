@@ -15,6 +15,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameLabel: PaddedTextField!
     @IBOutlet weak var passwordLabeel: PaddedTextField!
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var signupButton: UIButton!
     
     private func setupViews() {
         usernameLabel.layer.borderColor = CustomColor.TEXT_FIELD_BORDER_COLOR
@@ -27,6 +28,8 @@ class LoginViewController: UIViewController {
         
         
         loginButton.layer.cornerRadius = loginButton.frame.height / 2.0
+        
+        signupButton.layer.cornerRadius = signupButton.frame.height / 2.0
     }
     
     override func viewWillAppear(_ animated: Bool) {

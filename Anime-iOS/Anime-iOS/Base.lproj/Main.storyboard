@@ -18,6 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D7-XX-8BG">
+                                <rect key="frame" x="20" y="582" width="374" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6cj-Hi-mWE"/>
+                                </constraints>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PPv-sf-vYz" customClass="PaddedTextField" customModule="Anime_iOS" customModuleProvider="target">
                                 <rect key="frame" x="20" y="444" width="374" height="46"/>
                                 <constraints>
@@ -25,7 +35,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="username"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="password"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="padding">
                                         <real key="value" value="10"/>
@@ -55,10 +65,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D7-XX-8BG">
-                                <rect key="frame" x="20" y="582" width="374" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6P-be-xB5">
+                                <rect key="frame" x="20" y="534" width="374" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Log In">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Yex-7p-ufb"/>
+                                </constraints>
+                                <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -66,12 +79,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1BI-Aq-Jrr" firstAttribute="trailing" secondItem="PPv-sf-vYz" secondAttribute="trailing" constant="20" id="0a3-JJ-GTP"/>
+                            <constraint firstItem="0D7-XX-8BG" firstAttribute="top" secondItem="X6P-be-xB5" secondAttribute="bottom" constant="8" id="AsD-KY-fqV"/>
                             <constraint firstItem="dqV-Ol-vh5" firstAttribute="leading" secondItem="1BI-Aq-Jrr" secondAttribute="leading" constant="20" id="GpR-F8-pVw"/>
                             <constraint firstItem="PPv-sf-vYz" firstAttribute="top" secondItem="dqV-Ol-vh5" secondAttribute="bottom" constant="8" id="Guw-yQ-1hD"/>
-                            <constraint firstItem="0D7-XX-8BG" firstAttribute="top" secondItem="PPv-sf-vYz" secondAttribute="bottom" constant="92" id="Lm9-Ns-2mA"/>
+                            <constraint firstItem="X6P-be-xB5" firstAttribute="leading" secondItem="1BI-Aq-Jrr" secondAttribute="leading" constant="20" id="Mje-V4-2rX"/>
+                            <constraint firstItem="1BI-Aq-Jrr" firstAttribute="trailing" secondItem="X6P-be-xB5" secondAttribute="trailing" constant="20" id="Mqq-Jy-dIw"/>
                             <constraint firstItem="1BI-Aq-Jrr" firstAttribute="trailing" secondItem="0D7-XX-8BG" secondAttribute="trailing" constant="20" id="NKt-jS-cHD"/>
                             <constraint firstItem="5cm-Wf-5ge" firstAttribute="leading" secondItem="1BI-Aq-Jrr" secondAttribute="leading" constant="20" id="OTs-30-cbp"/>
                             <constraint firstItem="PPv-sf-vYz" firstAttribute="leading" secondItem="1BI-Aq-Jrr" secondAttribute="leading" constant="20" id="SAp-bB-h2e"/>
+                            <constraint firstItem="X6P-be-xB5" firstAttribute="top" secondItem="PPv-sf-vYz" secondAttribute="bottom" constant="54" id="daj-TR-u0Q"/>
                             <constraint firstItem="dqV-Ol-vh5" firstAttribute="top" secondItem="5cm-Wf-5ge" secondAttribute="bottom" constant="146" id="mPb-U9-bCh"/>
                             <constraint firstItem="1BI-Aq-Jrr" firstAttribute="trailing" secondItem="dqV-Ol-vh5" secondAttribute="trailing" constant="20" id="q6V-zH-mDx"/>
                             <constraint firstItem="0D7-XX-8BG" firstAttribute="leading" secondItem="1BI-Aq-Jrr" secondAttribute="leading" constant="20" id="wwg-iN-C2r"/>
@@ -82,6 +98,7 @@
                     <connections>
                         <outlet property="loginButton" destination="0D7-XX-8BG" id="g6c-IR-rx7"/>
                         <outlet property="passwordLabeel" destination="PPv-sf-vYz" id="BAp-ev-EXw"/>
+                        <outlet property="signupButton" destination="X6P-be-xB5" id="IWx-jA-EKj"/>
                         <outlet property="usernameLabel" destination="dqV-Ol-vh5" id="Ete-eZ-3nF"/>
                         <segue destination="BYZ-38-t0r" kind="show" id="R1Z-3z-ded"/>
                     </connections>
