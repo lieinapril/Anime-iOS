@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		16714B22228BD3BB00B60121 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16714B21228BD3BB00B60121 /* Anime.swift */; };
+		16714B24228BD48F00B60121 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16714B23228BD48F00B60121 /* LoginViewController.swift */; };
+		16714B28228BDC0A00B60121 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16714B27228BDC0A00B60121 /* CustomColor.swift */; };
 		E6EFF2C72285330B008ABAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFF2C62285330B008ABAAD /* AppDelegate.swift */; };
-		E6EFF2C92285330B008ABAAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFF2C82285330B008ABAAD /* ViewController.swift */; };
 		E6EFF2CC2285330B008ABAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EFF2CA2285330B008ABAAD /* Main.storyboard */; };
 		E6EFF2CE2285330D008ABAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EFF2CD2285330D008ABAAD /* Assets.xcassets */; };
 		E6EFF2D12285330D008ABAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EFF2CF2285330D008ABAAD /* LaunchScreen.storyboard */; };
@@ -36,9 +37,10 @@
 
 /* Begin PBXFileReference section */
 		16714B21228BD3BB00B60121 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		16714B23228BD48F00B60121 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		16714B27228BDC0A00B60121 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		E6EFF2C32285330B008ABAAD /* Anime-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EFF2C62285330B008ABAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6EFF2C82285330B008ABAAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6EFF2CB2285330B008ABAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6EFF2CD2285330D008ABAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6EFF2D02285330D008ABAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,6 +86,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		16714B25228BD49600B60121 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16714B23228BD48F00B60121 /* LoginViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		16714B26228BDBFC00B60121 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				16714B27228BDC0A00B60121 /* CustomColor.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		E6EFF2BA2285330A008ABAAD = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +125,10 @@
 		E6EFF2C52285330B008ABAAD /* Anime-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				16714B26228BDBFC00B60121 /* Constants */,
+				16714B25228BD49600B60121 /* View Controllers */,
 				16714B20228BD38800B60121 /* Models */,
 				E6EFF2C62285330B008ABAAD /* AppDelegate.swift */,
-				E6EFF2C82285330B008ABAAD /* ViewController.swift */,
 				E6EFF2CA2285330B008ABAAD /* Main.storyboard */,
 				E6EFF2CD2285330D008ABAAD /* Assets.xcassets */,
 				E6EFF2CF2285330D008ABAAD /* LaunchScreen.storyboard */,
@@ -267,7 +286,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6EFF2C92285330B008ABAAD /* ViewController.swift in Sources */,
+				16714B24228BD48F00B60121 /* LoginViewController.swift in Sources */,
+				16714B28228BDC0A00B60121 /* CustomColor.swift in Sources */,
 				E6EFF2C72285330B008ABAAD /* AppDelegate.swift in Sources */,
 				16714B22228BD3BB00B60121 /* Anime.swift in Sources */,
 			);
@@ -445,13 +465,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X363XCH4BV;
+				DEVELOPMENT_TEAM = Y8R5AM8ZJZ;
 				INFOPLIST_FILE = "Anime-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Takashi.Co.Anime-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Co.Anime-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,13 +483,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X363XCH4BV;
+				DEVELOPMENT_TEAM = Y8R5AM8ZJZ;
 				INFOPLIST_FILE = "Anime-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Takashi.Co.Anime-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Co.Anime-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
